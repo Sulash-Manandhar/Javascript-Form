@@ -1,0 +1,27 @@
+*{
+    max-width: 1200px;
+    box-sizing: border-box;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 560;
+}
+div{
+    max-width: 100%;
+    height: auto;
+    margin: 10px 0px;
+    font-size: 18px;
+}
+
+.input-field{
+    font-size: 15px;
+    padding: 5px;
+    width: 100%;
+    height: auto;
+}
+/* .success{
+    background-color: #198754;
+    color: white;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    border-radius: 5px;
+} */

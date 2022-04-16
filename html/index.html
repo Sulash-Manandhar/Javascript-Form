@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Form</title>
+    <link rel="stylesheet" href="../css/index.css">
+</head>
+<body>
+    <h1>Javascript Form</h1>
+    <form onsubmit="handleForm(event)">
+        <div class="success">
+        </div>
+        <fieldset>
+            <legend>Set up Now</legend>
+            <div>
+                <label for="first name">First Name:</label>
+                <input type="text" name="first_name" id="fname" class="input-field" required>
+            </div>
+          
+            <div>
+                <label for="last name">Last Name:  </label>
+                <input type="text" name="last_name" id="lname" class="input-field" required>
+            </div>
+          
+            <div>
+                <label for="Email"> Email: </label>
+                <input type="email" name="email" id="email" class="input-field" required>
+            </div>
+           
+            <div>
+                <label for="contact">Contact:</label>
+                <input type="tel" name="contact" id="contact" class="input-field" required>
+            </div>
+      
+            <div>
+                <input type="reset" value="Clear">
+                <input type="submit" value="Submit" >
+            </div>
+        </fieldset>
+    </form>
+
+    <h1>Final Data</h1>
+    <div id="contain">
+
+    </div>
+
+</body>
+<script src="../script/index.js"></script>
+</html>
+
+
